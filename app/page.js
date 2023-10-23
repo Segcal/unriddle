@@ -7,12 +7,19 @@ import EasyCover from "./components/utility/EasyCover";
 import CardPage from "./components/utility/Card";
 import Moving from "./components/Moving";
 import Effective from "./components/utility/Effective";
+import Teams from "./components/utility/Teams";
+import Landing from "./components/Landing";
+import BasicAccordion from "./components/BasicAccordion";
+import GetStarted from "./components/utility/GetStarted";
+import Navbar from "./components/Navbar";
+
 
 
 export default function Home() {
   return (
     <>
-      <main className="md:mt-24 mt-24 flex flex-col items-center justify-center">
+    <Navbar />
+      <main className="container md:mt-24 mt-24 flex flex-col items-center justify-center">
         <div>
           <h1 className="capitalize font-bold lg:text-6xl text-5xl py-2">
             read{" "}
@@ -29,7 +36,7 @@ export default function Home() {
         </p>
         <Link
           href="/"
-          className="bg-black text-white duration-200 ease-in-out px-3 py-2 rounded-lg"
+          className="bg-black text-white transform transition-transform duration-300 hover:scale-110  ease-in-out px-3 py-2 rounded-lg"
         >
           Get Started
         </Link>
@@ -50,6 +57,17 @@ export default function Home() {
       <Moving />
       <div className="md:mt-24 mt-24 flex flex-col items-center justify-center">
         <Effective />
+        <Teams />
+        <Landing />
+        <div className="px-4 flex items-center justify-center flex-col">
+          <h1 className="lg:text-6xl text-4xl text-center font-semibold">
+            Frequently asked questions
+          </h1>
+          <div className="lg:px-56 my-12">
+            <BasicAccordion />
+            <GetStarted />
+          </div>
+        </div>
       </div>
     </>
   );

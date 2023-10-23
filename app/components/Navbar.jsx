@@ -24,14 +24,14 @@ export default function Navbar() {
             Affiliate
           </Link>
           <Link
-            href="/"
+            href="#"
             className="hover:bg-gray-400 hidden md:block hover:bg-opacity-40 duration-200 ease-in-out px-2 py-1 rounded-md capitalize"
           >
             <Signup />
           </Link>
           <Link
-            href="/"
-            className="bg-black text-white duration-200 ease-in-out px-3 py-2 rounded-lg"
+            href="/unriddle"
+            className="bg-black text-white transform transition-transform duration-300 hover:scale-110 ease-in-out px-3 py-2 rounded-lg"
           >
             Get Started
           </Link>

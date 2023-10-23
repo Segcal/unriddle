@@ -16,6 +16,7 @@ module.exports = {
       animation: {
         "spin-slow": "spin 13s linear infinite",
         "pulse-slow": "pulse 6s linear infinite",
+        "marquee": "marquee 15s linear infinite",
       },
     },
   },
