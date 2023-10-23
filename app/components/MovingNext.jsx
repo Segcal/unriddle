@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 import { FaTwitter } from "react-icons/fa";
-import Marquee from 'react-fast-marquee';
-import Image from 'next/image';
+import Marquee from "react-fast-marquee";
+import Image from "next/image";
+
 export default function MovingNext() {
   return (
     <div className="mt-3">
-      <Marquee pauseOnHover direction='left'>
-        <div className="flex gap-2  lg:flex-row">
-          <article className="border border-gray-500 rounded-md  hover:bg-gray-300 duration-200 ease-in hover:opacity-60">
+      <Marquee pauseOnHover direction="left">
+        <div className="flex gap-2 lg:flex-row">
+          <article className="border border-gray-500 rounded-md hover:bg-gray-300 duration-200 ease-in hover:opacity-60">
             <div className="px-6 py-2">
               <div className="flex justify-between items-center">
                 <div className="flex gap-4 items-center">
@@ -19,7 +20,7 @@ export default function MovingNext() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>
@@ -49,7 +50,7 @@ export default function MovingNext() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>
@@ -79,7 +80,7 @@ export default function MovingNext() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>
@@ -97,7 +98,7 @@ export default function MovingNext() {
 
           {/*  */}
 
-          <article className="border border-gray-500 rounded-md hover:bg-gray-300 duration-200 ease-in hover:opacity-60">
+          <article className="border border-gray-500 rounded-md hover-bg-gray-300 duration-200 ease-in hover-opacity-60">
             <div className="px-6 py-2">
               <div className="flex justify-between items-center">
                 <div className="flex gap-4 items-center">
@@ -109,7 +110,7 @@ export default function MovingNext() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>

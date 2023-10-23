@@ -21,7 +21,7 @@ export default function Moving() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>Jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ export default function Moving() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>Jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function Moving() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>Jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ export default function Moving() {
                     className="rounded-full"
                   />
                   <div>
-                    <h3>Jane Doe 🥰</h3>
+                    <h3>Jane Doe</h3>
                     <small className="text-gray-500">@janedoe</small>
                   </div>
                 </div>
