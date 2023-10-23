@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 import { AiOutlinePlus } from 'react-icons/ai';
 import { BsChatLeft, BsFillPersonFill, BsThreeDots } from 'react-icons/bs';
 
@@ -137,7 +138,7 @@ export default function Sidebar() {
             className="flex w-full gap-4 py-3 px-3 rounded-md justify-start items-center"
           >
             <div>
-              <img
+              <Image
                 src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697829457/images_vgyxhy.jpg"
                 alt=""
                 width={25}
