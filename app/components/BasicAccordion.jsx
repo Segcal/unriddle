@@ -15,12 +15,12 @@ export default function BasicAccordion() {
           id="panel1a-header"
         >
           <Typography>
-            What's the difference between Unriddle and ChatGPT?
+            Whats the difference between AI...mode and ChatGPT?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            On Unriddle you control the inputs. We designed the system to work
+            On AI...mode you control the inputs. We designed the system to work
             with your own data sources, answering questions based only on the
             information you provide. This ensures highly accurate and relevant
             answers. ChatGPT is trained on a general pool of information found
@@ -37,11 +37,11 @@ export default function BasicAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>What languages does Unriddle support?</Typography>
+          <Typography>What languages does AI...mode support?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Unriddle supports over 95 languages including, but not limited to,
+            AI...mode supports over 95 languages including, but not limited to,
             English, Spanish, French, German, Portuguese, Italian, Dutch,
             Russian, Arabic, Chinese, Japanese, Korean, Hindi, Bengali, Urdu,
             Turkish, Polish, Swedish, Norwegian, Danish, Finnish, Hebrew, Thai,
@@ -57,7 +57,7 @@ export default function BasicAccordion() {
           id="panel1a-header"
         >
           <Typography>
-            Can I trust Unriddle to give me accurate information?
+            Can I trust AI...mode to give me accurate information?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -65,7 +65,7 @@ export default function BasicAccordion() {
             Yes. We designed the system to work with your own data sources,
             answering questions based only on the information you provide. And
             it’ll let you know if it can’t find an answer. So if you trust the
-            source documents, you can trust Unriddle’s response!
+            source documents, you can trust AI...mode’s response!
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -76,7 +76,7 @@ export default function BasicAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>How secure is my data when using Unriddle?</Typography>
+          <Typography>How secure is my data when using AI...mode?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -96,7 +96,7 @@ export default function BasicAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Email support@unriddle.ai and we’ll get back to you within a day.
+            Email support@AI...mode.ai and we’ll get back to you within a day.
           </Typography>
         </AccordionDetails>
       </Accordion>

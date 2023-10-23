@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function EasyCover() {
   return (
@@ -16,13 +17,15 @@ export default function EasyCover() {
           from your library. Never loose a citation again
         </p>
       </div>
-      <article className="px-6">
-        <img
-          src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697932373/unriddle_ai/easy_img_qehds3.png"
+      {/* <article className="px-6">
+        <Image
+          src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697932373/unriddle_ai/easy_Image_qehds3.png"
           alt=""
           className=""
+          width={200}
+          height={200}
         />
-      </article>
+      </article> */}
       <div className="md:py-28 py-16">
         <hr />
       </div>

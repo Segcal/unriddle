@@ -65,7 +65,7 @@ export default function MainAccordion() {
           id="panel1a-header"
         >
           <Typography>
-            What's the difference between Unriddle and ChatGPT?
+            Whats the difference between Unriddle and ChatGPT?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -74,7 +74,7 @@ export default function MainAccordion() {
             with your own data sources, answering questions based only on the
             information you provide. This ensures highly accurate and relevant
             answers. ChatGPT is trained on a general pool of information found
-            across the internet. It’s excellent at covering a wide range of
+            across the internet. Its excellent at covering a wide range of
             topics but can struggle when the conversation becomes more focused
             and specific.
           </Typography>

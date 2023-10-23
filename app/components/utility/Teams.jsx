@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function Teams() {
   return (
@@ -20,10 +21,12 @@ export default function Teams() {
           </p>
         </div>
         <article className="px-6">
-          <img
+          <Image
             src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697945885/unriddle_ai/effective_xyiims.png"
             alt=""
             className=""
+            width={200}
+            height={200}
           />
         </article>
         <div className="md:py-28 py-16">

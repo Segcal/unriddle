@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaTwitter } from "react-icons/fa";
 import Marquee from 'react-fast-marquee';
-
+import Image from 'next/image';
 export default function MovingNext() {
   return (
     <div className="mt-3">
@@ -11,7 +11,7 @@ export default function MovingNext() {
             <div className="px-6 py-2">
               <div className="flex justify-between items-center">
                 <div className="flex gap-4 items-center">
-                  <img
+                  <Image
                     src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894279/unriddle_ai/72_kvl49o.jpg"
                     alt=""
                     width={45}
@@ -41,7 +41,7 @@ export default function MovingNext() {
             <div className="px-6 py-2">
               <div className="flex justify-between items-center">
                 <div className="flex gap-4 items-center">
-                  <img
+                  <Image
                     src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894279/unriddle_ai/72_kvl49o.jpg"
                     alt=""
                     width={45}
@@ -71,7 +71,7 @@ export default function MovingNext() {
             <div className="px-6 py-2">
               <div className="flex justify-between items-center">
                 <div className="flex gap-4 items-center">
-                  <img
+                  <Image
                     src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894279/unriddle_ai/72_kvl49o.jpg"
                     alt=""
                     width={45}
@@ -101,7 +101,7 @@ export default function MovingNext() {
             <div className="px-6 py-2">
               <div className="flex justify-between items-center">
                 <div className="flex gap-4 items-center">
-                  <img
+                  <Image
                     src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894279/unriddle_ai/72_kvl49o.jpg"
                     alt=""
                     width={45}

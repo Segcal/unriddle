@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="flex items-left flex-col lg:flex-row justify-between">
         <div className="py-4">
           <Link href="/" className="text-xl font-bold">
-            Unriddle
+            AI
           </Link>
         </div>
         <div className="flex md:gap-8 gap-8 flex-col lg:flex-row">
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-gray-400">
-          <p>© 2023 Unriddle Ltd</p>
+          <p>© 2023 AI Ltd</p>
           <div className="flex gap-1">
             <Link href='/'>
               <FaTwitter size={22} />

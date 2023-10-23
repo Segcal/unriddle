@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function Sections() {
   return (
@@ -15,18 +16,20 @@ export default function Sections() {
           </h1>
         </div>
         <p className="text-left md:w-[48rem] pt-6 pb-12 text-xl">
-          Unriddle understands the meaning behind your writing and automatically
+          This AI understands the meaning behind your writing and automatically
           links you to relevant things you’ve read and written
           about in the past.
         </p>
       </div>
-      <article className="px-6">
-        <img
+      {/* <article className="px-6">
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697932374/unriddle_ai/info_sources_c92i58.png"
           alt=""
           className=""
+          width={300}
+          height={200}
         />
-      </article>
+      </article> */}
       <div className="md:py-28 py-16">
         <hr />
       </div>

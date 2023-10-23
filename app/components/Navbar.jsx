@@ -7,18 +7,18 @@ export default function Navbar() {
       <nav className="lg:px-44 sm:px-8 px-8 flex justify-between items-center fixed w-full top-0 md:w-full bg-gray-100 py-4 bg-opacity-80 z-10">
         <div>
           <Link href="/" className="text-xl font-bold">
-            Unriddle
+            AI
           </Link>
         </div>
         <div className="flex gap-4 items-center">
           <Link
-            href="/pricing"
+            href="/"
             className="hover:bg-gray-400 hover:bg-opacity-40 duration-200 ease-in-out px-2 py-1 rounded-md capitalize"
           >
             pricing
           </Link>
           <Link
-            href="https://unriddle.notion.site/Join-Unriddle-s-Affiliate-Program-dacd4df4db0e486c888214055dbce66d"
+            href="/"
             className="hover:bg-gray-400 hidden md:block hover:bg-opacity-40 duration-200 ease-in-out px-2 py-1 rounded-md capitalize"
           >
             Affiliate

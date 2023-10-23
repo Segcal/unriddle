@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image';
+
 
 export default function CardShow() {
   return (
@@ -12,10 +14,12 @@ export default function CardShow() {
               Russian, Japanese, Korean, Chinese and more.
             </p>
             <div className="flex justify-center items-center -mt-2  animate-spin-slow duration-200 ease-in-out pt-6">
-              <img
+              <Image
                 src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697933413/unriddle_ai/download_yk8sxc.png"
                 alt=""
                 className="w-[22rem]"
+                width={500}
+                height={500}
               />
             </div>
           </main>
@@ -25,9 +29,11 @@ export default function CardShow() {
               Adjust the model, temperature and response length in settings.
             </p>
             <div className="flex justify-center items-center pt-11">
-              <img
+              <Image
                 src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697933413/unriddle_ai/settings_gqfjw9.svg"
                 alt=""
+                width={500}
+                height={500}
               />
             </div>
           </main>

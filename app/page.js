@@ -6,8 +6,6 @@ import Sections from "./components/utility/Sections";
 import EasyCover from "./components/utility/EasyCover";
 import CardPage from "./components/utility/Card";
 import Moving from "./components/Moving";
-import Effective from "./components/utility/Effective";
-import Teams from "./components/utility/Teams";
 import Landing from "./components/Landing";
 import BasicAccordion from "./components/BasicAccordion";
 import GetStarted from "./components/utility/GetStarted";
@@ -41,13 +39,7 @@ export default function Home() {
           Get Started
         </Link>
         <p className="pt-6">Join 100,000+ researchers</p>
-        <HeroImages />
-        <img
-          src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697916744/unriddle_ai/landing_hero_qn5prh.png"
-          alt=""
-          className="mt-8 px-8"
-        />
-        <HeroPage />
+        
         <hr />
         <ShowCase />
         <Sections />
@@ -56,8 +48,7 @@ export default function Home() {
       </main>
       <Moving />
       <div className="md:mt-24 mt-24 flex flex-col items-center justify-center">
-        <Effective />
-        <Teams />
+        
         <Landing />
         <div className="px-4 flex items-center justify-center flex-col">
           <h1 className="lg:text-6xl text-4xl text-center font-semibold">

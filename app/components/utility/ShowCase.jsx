@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function ShowCase() {
   return (
@@ -13,17 +14,19 @@ export default function ShowCase() {
           </span>
         </div>
         <p className="text-left md:w-[48rem] pt-6 pb-12 text-xl">
-          Unriddle generates an AI assistant on top of any document so you can
+           generates an AI assistant on top of any document so you can
           quickly find, summarize and understand info. No more endless skimming.
         </p>
       </div>
-      <article className="px-6">
-        <img
+      {/* <article className="px-6">
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697928302/unriddle_ai/Screenshot_2023-10-21_234434_tasuj1.png"
           alt=""
           className=""
+          width={300}
+          height={300}
         />
-      </article>
+      </article> */}
       <div className="md:py-28 py-16">
         <hr />
       </div>

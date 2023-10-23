@@ -5,6 +5,7 @@ import Moving from '../components/Moving';
 import MainAccordion from '../components/MainAccordion';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Image from 'next/image';
 
 export default function PricingPage() {
   return (
@@ -17,42 +18,42 @@ export default function PricingPage() {
           </h1>
           <p className="text-gray-400 font-semibold py-4">TRUSTED BY</p>
           <div className="flex flex-wrap gap-4">
-            <img
+            <Image
               src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894285/unriddle_ai/mckinsey-logo_huavbb.svg"
               alt=""
               width={95}
               height={95}
               className="text-gray-500 opacity-40"
             />
-            <img
+            <Image
               src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894286/unriddle_ai/nyu-logo_rvpx8f.svg"
               alt=""
               width={95}
               height={95}
               className="text-gray-500 opacity-40"
             />
-            <img
+            <Image
               src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894286/unriddle_ai/mit-logo_bj9t1h.svg"
               alt=""
               width={95}
               height={95}
               className="text-gray-500 opacity-20"
             />
-            <img
+            <Image
               src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894285/unriddle_ai/meta-logo_wks3na.svg"
               alt=""
               width={95}
               height={95}
               className="text-gray-500 opacity-40"
             />
-            <img
+            <Image
               src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894280/unriddle_ai/cambridge-logo_vjwfe4.svg"
               alt=""
               width={95}
               height={95}
               className="text-gray-500 opacity-40"
             />
-            <img
+            <Image
               src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894282/unriddle_ai/harvard-logo_yyvxat.svg"
               alt=""
               width={95}

@@ -10,7 +10,7 @@ export default function Landing() {
           Join our creator program and earn up to 50% commission
         </h1>
         <p className="my-2 px-6 md:text-xl">
-          As an Unriddle creator, you’ll share Unriddle with your audience, earn
+          As an AI creator, you’ll share AI with your audience, earn
           commission on sales and get access to the platform.
         </p>
         <div className="flex hover:bg-gray-400 items-center gap-2  hover:bg-opacity-40 duration-200 ease-in-out px-2 py-1 rounded-md capitalize">

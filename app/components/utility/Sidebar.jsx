@@ -6,11 +6,11 @@ import { BsChatLeft, BsFillPersonFill, BsThreeDots } from 'react-icons/bs';
 export default function Sidebar() {
   return (
     <>
-      <main className="fixed top-0 z-10 left-0 bg-gray-800 h-screen w-[20rem]">
+      <main className="fixed top-0 z-10 left-0 bg-gray-800 text-white h-screen w-[20rem]">
         <div className="px-3 py-4">
           <Link
             href="#"
-            className="flex gap-2 border border-white text-center py-3 px-3 rounded-md justify-start items-center"
+            className="flex gap-2 text-center py-3 px-3 rounded-md justify-center items-center"
           >
             <div>
               <AiOutlinePlus size={22} />

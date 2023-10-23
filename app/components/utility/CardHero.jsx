@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function CardHero() {
   return (
@@ -11,9 +12,11 @@ export default function CardHero() {
               Auto-generated prompts, relations, titles, sorting and more.
             </p>
             <div className="flex justify-center items-center animate-pulse-slow">
-              <img
+              <Image
                 src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697940635/unriddle_ai/plus_ltigd0.png"
                 alt=""
+                width={500}
+                height={500}
               />
             </div>
           </main>
@@ -24,9 +27,11 @@ export default function CardHero() {
               several sources
             </p>
             <div className="flex justify-center items-center pt-6">
-              <img
+              <Image
                 src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697940635/unriddle_ai/crm_dqrbqr.png"
                 alt=""
+                width={500}
+                height={500}
               />
             </div>
           </main>

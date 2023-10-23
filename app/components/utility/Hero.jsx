@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function HeroPage() {
   return (
@@ -15,61 +16,61 @@ export default function HeroPage() {
         </p>
       </div>
       <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 pb-8 gap-4 px-8  justify-center items-center text-center">
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894287/unriddle_ai/stanford-logo_ioeyjg.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894286/unriddle_ai/nyu-logo_rvpx8f.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894286/unriddle_ai/mit-logo_bj9t1h.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894285/unriddle_ai/meta-logo_wks3na.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894285/unriddle_ai/mckinsey-logo_huavbb.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894282/unriddle_ai/harvard-logo_yyvxat.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894286/unriddle_ai/sp-logo_zsurcj.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894282/unriddle_ai/instacart-logo_ypnqk1.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894279/unriddle_ai/caltech-logo_wx7imf.svg"
           alt=""
           width={95}
           height={95}
         />
-        <img
+        <Image
           src="https://res.cloudinary.com/dtrqikle5/image/upload/v1697894280/unriddle_ai/cambridge-logo_vjwfe4.svg"
           alt=""
           width={95}

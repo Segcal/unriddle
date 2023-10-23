@@ -10,13 +10,13 @@ export default function GetStarted() {
           Get started for free
         </h1>
         <p className="my-2 px-6 md:text-xl">
-          Take Unriddle for a spin today. No card required
+          Take AI for a spin today. No card required
         </p>
         <Link
           href="/"
           className="bg-black text-white duration-200 ease-in-out px-3 py-2 rounded-lg"
         >
-          Try Unriddle free
+          Try AI free
         </Link>
       </div>
       <div className="md:pt-28 pt-16">

@@ -37,7 +37,7 @@ export default function UnriddlePage() {
   };
 
   return (
-    <main className="py-2 px-4 bg-gray-900/90 w-full h-screen text-white">
+    <main className="py-2 px-4 bg-white w-full h-screen text-black">
       <div className="hidden md:block">
         <Sidebar />
       </div>
@@ -63,10 +63,10 @@ export default function UnriddlePage() {
 
       {isSidebarOpen && <Sidebar onClick={stopPropagation} />}
       <div className="flex flex-col lg:px-38 justify-center items-center">
-        <Chat />
+       
         <div>
-          <h1 className="text-gray-200 opacity-40 text-4xl text-center mt-16">
-            Unriddle_AI
+          <h1 className="text-black text-4xl text-center mt-16">
+            AI..
           </h1>
         </div>
         <div className="flex gap-2 flex-col w-full lg:w-[42vw] lg:flex-row mt-44">
@@ -100,7 +100,7 @@ export default function UnriddlePage() {
         </div>
         <div className="mt-4">
           <Link href="/" className="text-xl font-bold">
-            Unriddle
+            AI
           </Link>
         </div>
       </div>
