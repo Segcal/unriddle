@@ -8,10 +8,10 @@ export default function Main() {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex items-center justify-center">
         <div>
           <p className="uppercase text-sm text-gray-600 tracking-widest">
-            Let's build somthing unique together
+            Let s build somthing unique together
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, i'm <span className="text-[#5651e5]">Caleb</span>
+            Hi im <span className="text-[#5651e5]">Caleb</span>
           </h1>
           <h1 className="py-1 text-gray-700">Am a Frontend Developer</h1>
           <p className="py-4 text-gray-700 max-w-[70%] m-auto">

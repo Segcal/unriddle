@@ -79,7 +79,7 @@ export default function Navbar() {
             {/*  */}
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4 font-mono">
-                Let's build somthing unique together
+                Let s build somthing unique together
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
             </ul>
             <div className="pt-10">
               <p className="uppercase mb-6 tracking-widest text-[#5651e5] font-mono">
-                let's connect.
+                let s connect.
               </p>
               <div className="flex items-center justify-between w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 duration-500 ease-in">
